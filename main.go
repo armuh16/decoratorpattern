@@ -28,7 +28,6 @@ func makeHTTPFunc(db DB, fn httpFunc) http.HandlerFunc {
 		if err := fn(db, w, r); err != nil {
 
 		}
-		// where is my db??
 	}
 }
 
