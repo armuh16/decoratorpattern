@@ -44,7 +44,7 @@ func handler(db DB, w http.ResponseWriter, r *http.Request) error {
 
 type httpFunc func(db DB, w http.ResponseWriter, r *http.Request) error
 
-// This is coming from a third party lib
+// From third party
 type Executefn func(string)
 
 func Execute(fn Executefn) {
