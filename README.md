@@ -1,0 +1,2 @@
+# decoratorpattern
+Golang Decorator Pattern
